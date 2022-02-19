@@ -18,11 +18,11 @@ For training the model, the following command can be used
 ```bash
 python main.py --train {training path} --val {validation path} --epochs_base {base epoch} --epochs {final epoch} --batch {batch size} --steps {steps} 
 ```
-{training path} : Path to the training leaf image set
-{validation path} : Path to the validation leaf image set
-{base epochs} : Number of epochs used while using base CNN models
-{final epochs} : Number of epochs used while training final fused model
-{batch size} : Batch Size used while training and validating
-{Steps} : Number of steps per epochs while training
+{training path} : Path to the training leaf image set  
+{validation path} : Path to the validation leaf image set  
+{base epochs} : Number of epochs used while using base CNN models  
+{final epochs} : Number of epochs used while training final fused model  
+{batch size} : Batch Size used while training and validating  
+{Steps} : Number of steps per epochs while training  
 
 The final trained model is saved at `models/fused`. 
